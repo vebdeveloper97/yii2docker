@@ -51,10 +51,12 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 You can then install this project template using the following command:
 
 ~~~
-
-composer create-project --prefer-dist yiisoft/yii2-app-basic basic --ignore-platform-reqs
-cd basic
-composer run-script docker:build
+1) Install Composer[https://getcomposer.org/]
+2) Install Docker[https://docs.docker.com/get-docker/]
+3) Install docker-compose[https://docs.docker.com/compose/install/]
+4) composer create-project --prefer-dist yiisoft/yii2-app-basic basic --ignore-platform-reqs
+5) cd basic
+6) composer run-script docker:build
 ~~~
 
 Now you should be able to access the application through the following URL, assuming `basic` is the directory
